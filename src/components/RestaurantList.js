@@ -14,7 +14,7 @@ export const RestaurantList = ({loadRestaurants, restaurants}) => {
     <List>
       {restaurants.map(restaurant => (
         <ListItem key={restaurant.id}>
-            <ListItemText>{restaurant.name}</ListItemText>
+          <ListItemText>{restaurant.name}</ListItemText>
         </ListItem>
       ))}
     </List>

@@ -26,7 +26,7 @@ const App = () => (
         </Toolbar>
       </AppBar>
       <Container>
-         <RestaurantScreen />
+        <RestaurantScreen />
       </Container>
     </ThemeProvider>
   </Provider>
